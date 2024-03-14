@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.login{
+    width: 100%;
+    height: 742px;  
+    display: flex; 
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(to right,#a6a9ec 0% 55%,white 55% 100% ) ;
+}
+.left_main{
+    background-color:white;
+    border: 1px solid lightgrey;
+    border-radius: 22px;
+    box-shadow: -5px 5px 30px #9f9ce8;
+    margin-bottom: 200px;
+    margin-top: 125px;
+    margin-left: 150px;
+    width: 500px;
+    height: 489px;
+
+}
+.login_name{
+    text-align: center;
+    padding-top:45px;
+    font-size: 1.9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style:normal;
+    text-decoration: underline;
+    color: #1f1970;
+}
+.login_main{
+    display: flex;
+    justify-content: center;
+    padding-top: 49px;
+    height: 50px;
+}
+#opt{
+     font-size: larger;
+     width: 300px;
+     border-radius: 15px;
+     padding-left: 15px;
+     color: #1f1970;
+     border: 1px solid #1f1970;
+
+}
+
+.vt img{
+    padding-top: 60px;
+    height: 330px;
+    width: 465px;
+    padding-left: 20px;
+}
+.stud input{
+   margin-top: 30px;
+   margin-left: 50px;
+   height: 45px;
+   width: 370px;
+   border-radius: 15px;
+   border:1px solid lightgrey;
+   padding-left: 12px;
+   font-size: 1.01rem;
+
+}
+.login_button button{
+    margin-top: 22px;
+    margin-left: 202px;
+    width: 85px;
+    height: 40px;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 15px;
+    border: 1px solid rgb(157, 157, 157);
+    color: #1f1970;
+    
+}
+.login_button button:hover{
+    background-color: #a6a9ec;
+    color: white;
+
+}
+.teach input{
+    margin-top: 42px;
+    margin-left: 50px;
+    height: 50px;
+    width: 370px;
+    border-radius: 15px;
+    border:1px solid lightgrey;
+    padding-left: 12px;
+    font-size: 1.01rem;
+ 
+ }
+ #pass{
+    margin-bottom: 10px;
+ }
+ .right img{
+    height: 480px;
+    width:700px;
+    padding-left: 20px;
+    padding-top: 200px;
+ }

@@ -1,0 +1,301 @@
+
+/* *{
+    margin: 0px;
+}
+.head{
+    height:60px;
+    display: flex;
+}
+.left-h{
+    display: flex;
+    height: 60px;
+    width: 50vw;
+}
+.p1{
+    padding-left: 60px;
+    padding-top: 18px;
+}
+.p2{
+    padding-left:20px;
+    padding-top: 18px;
+}
+.content{
+    margin-top: 100px;
+}
+.b1{
+    height: 30px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Montserrat&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    color: black; 
+  }
+  
+  .left-h {
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+    padding-left: 10px;
+  }
+  
+  /* .p1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+   */
+  .p2 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to right, rgb(0, 183, 255,0.7),rgba(204, 0, 255, 1),rgb(255,0,0,0.7));
+    -webkit-background-clip: text;
+    background-clip: text; /* Apply background to the text */
+    color: transparent;
+  }
+  
+  .right-h {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 25px;
+  }
+  
+  /* Styling for buttons */
+  .b1,
+  .b2,
+  .b3{
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    background-color: #fff; 
+    color: black; /* Default text color */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+  }
+  
+  .b1:hover,
+  .b2:hover,
+  .b3:hover{
+    /* background-color:#e3e3e3;  */
+    background-image: linear-gradient(to right, rgb(0, 183, 255,0.7),rgba(204, 0, 255, 1),rgb(255,0,0,0.7));
+    -webkit-background-clip: text;
+    background-clip: text; /* Apply background to the text */
+    color: transparent;
+  }
+  
+  /* Content */
+  .Content {
+    padding: 20px;
+    
+  }
+  
+  .Content label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* .Content input[type="text"] {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: -5px 5px 30px 5px rgba(150, 147, 149, 0.286) ;
+    font-size: 1.1rem;
+
+  } */
+  
+  .Content button {
+    margin-left: 184px;
+    margin-top: -4px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgba(225, 219, 219, 0.763);
+    /* background-image: linear-gradient(to right, rgb(0, 183, 255,0.7),rgba(204, 0, 255, 1),rgb(255,0,0,0.7));
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent; */
+    color: black;
+  }
+  .Content button:hover{
+    background: linear-gradient(90deg, rgb(0, 183, 255,0.5),rgb(232, 146, 253),rgb(255, 104, 104,0.4));   
+     color:white;
+  }
+  
+  .tagline{ 
+    /* align-items: center; */
+    height:240px;
+    width: 550px;
+    padding-top: 30px;
+    padding-left:89px;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 2.9rem ;
+    color: black;
+
+  }
+  .project_info{
+    display: flex;
+    width: 576px;
+   font-family: "Poppins", sans-serif;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: -5px 5px 30px 5px rgba(150, 147, 149, 0.286) ;
+    margin-left: 440px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* font-size: 1.1rem; */
+
+  }
+
+.about{
+  color: grey;
+  padding-top: 0px;
+  padding-left:95px;
+  width: 600px;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+}
+.innovators{
+  background-image: linear-gradient(to right, rgb(0, 183, 255,0.8),rgba(204, 0, 255, 0.8),rgb(255,0,0,0.7));
+    -webkit-background-clip: text;
+    background-clip: text; /* Apply background to the text */
+    color: transparent;
+    font-weight: 600;
+
+}
+.middle{
+  display: flex;
+
+}
+.middle-left{
+  padding-right: 0px;
+  margin-right: 0%;
+  width: 650px;
+}
+.vector img{
+  width:780px;
+  height: 450px;
+
+}
+.searching{
+  width:300px;
+}
+.searching input{
+  border: none;
+  font-size: 1.09rem;
+  padding-top: 5px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.searching input:focus{
+  outline: none;
+}
+.reb{
+  background: linear-gradient(to bottom, rgba(106, 232, 254, 0.8),rgba(224, 111, 253, 0.8),rgba(243, 62, 253, 0.7));
+
+  border-radius: 22px;
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  margin-left: 280px;
+  margin-right: 300px;
+  padding-left: 20px;
+  height:92px;
+  width: 880px;
+}
+.re {
+  background-color: white;
+  border-radius: 0 22px 22px 0;
+  /* box-shadow: -5px 5px 30px 5px rgba(150, 147, 149, 0.286); */
+  /* margin-top: 20px; */
+  /* margin-left: 300px; */
+  /* margin-right: 20px; */
+  padding-left: 20px;
+  padding-right: 140px;
+  padding-bottom: 0.1px;
+  height: 92px;
+  width: 720px;
+  
+  display : flex;
+}
+.hp{
+  height: 92px;
+  width: 516px;
+}
+
+.hp h1 {
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 20px;
+  height: 35px;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+}
+.hp p{
+  font-family: "Poppins", sans-serif;
+}
+
+.le{
+  margin-top: -5px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+  height: 20px;
+  width: 204px;
+  color:rgb(118, 117, 117);
+  font-family: "Nanum Gothic Coding", monospace;
+}
+.visit button{
+  margin-top: -4px;
+  margin-left: 177px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 41px;
+  width: 90px;
+  margin-right: 10px;
+  background-color: rgb(248 181 248);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: large;
+
+}
+.visit{
+  margin-top:15px;
+}
